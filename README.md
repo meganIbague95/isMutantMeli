@@ -11,7 +11,7 @@ y en el body agregar el objeto en formato json.
 
 Ejemplo:
 {
-    "input":["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
+    "dna":["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
 }
 
 Dependiendo de como se haya formado la cadena, el servicio devolverá estado 200-ok si se econtró ADN mutante, en el caso contrario aparecerá estado 403- forbbiden.

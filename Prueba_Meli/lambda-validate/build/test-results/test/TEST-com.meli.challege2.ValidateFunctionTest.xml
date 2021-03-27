@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.meli.challege2.ValidateFunctionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-27T00:33:34" hostname="DESKTOP-19AREVM" time="2.465">
+  <properties/>
+  <testcase name="run()" classname="com.meli.challege2.ValidateFunctionTest" time="1.893"/>
+  <testcase name="runFailLetter()" classname="com.meli.challege2.ValidateFunctionTest" time="0.008"/>
+  <testcase name="runFail()" classname="com.meli.challege2.ValidateFunctionTest" time="0.536"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 26, 2021 7:33:35 PM com.amazonaws.profile.path.cred.CredentialsLegacyConfigLocationProvider getLocation
+ADVERTENCIA: Found the legacy config profiles file at [C:\Users\Megan\.aws\config]. Please move it to the latest default location [~/.aws/credentials].
+mar 26, 2021 7:33:36 PM com.amazonaws.profile.path.cred.CredentialsLegacyConfigLocationProvider getLocation
+ADVERTENCIA: Found the legacy config profiles file at [C:\Users\Megan\.aws\config]. Please move it to the latest default location [~/.aws/credentials].
+]]></system-err>
+</testsuite>

@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  lambdavalidate:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: 'com.meli.challenge2.ValidateFunction::handleRequest'
+      Runtime: java8.al2
+      CodeUri: .
+      Description: ''
+      MemorySize: 512
+      Timeout: 15
+      Role: >-
+        arn:aws:iam::102287414076:role/service-role/lambda-validate-role-1uq323yd
+      Events:
+        Api1:
+          Type: Api
+          Properties:
+            Path: /mutant
+            Method: POST
+  lambdashow:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: 'com.meli.challenge.ShowFunction::handleRequest'
+      Runtime: java8.al2
+      CodeUri: .
+      Description: ''
+      MemorySize: 512
+      Timeout: 15
+      Role: 'arn:aws:iam::102287414076:role/service-role/lambda-show-role-x54nali7'
+      Events:
+        Api1:
+          Type: Api
+          Properties:
+            Path: /stats
+            Method: GET
+        Api2:
+          Type: Api
+          Properties:
+            Path: /stats
+            Method: GET

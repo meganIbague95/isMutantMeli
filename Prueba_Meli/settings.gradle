@@ -1,0 +1,5 @@
+rootProject.name = 'Prueba_Meli'
+include 'lambda-validate'
+include 'DynamoService'
+include 'lambda-show'
+

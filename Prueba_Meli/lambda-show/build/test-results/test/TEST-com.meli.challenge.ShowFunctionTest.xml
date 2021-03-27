@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.meli.challenge.ShowFunctionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-03-26T04:49:33" hostname="DESKTOP-19AREVM" time="0.899">
+  <properties/>
+  <testcase name="run()" classname="com.meli.challenge.ShowFunctionTest" time="0.899"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[mar 25, 2021 11:49:33 PM com.amazonaws.profile.path.cred.CredentialsLegacyConfigLocationProvider getLocation
+ADVERTENCIA: Found the legacy config profiles file at [C:\Users\Megan\.aws\config]. Please move it to the latest default location [~/.aws/credentials].
+]]></system-err>
+</testsuite>

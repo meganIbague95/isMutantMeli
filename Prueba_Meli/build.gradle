@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'software.amazon.awssdk:lambda'
+    implementation 'com.amazonaws:aws-lambda-java-events:3.1.0'
+    implementation 'com.amazonaws:aws-lambda-java-core:1.2.1'
+    implementation platform('software.amazon.awssdk:bom:2.15.17')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+}
+
+
